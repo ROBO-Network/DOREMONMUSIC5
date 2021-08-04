@@ -7,7 +7,7 @@ export const Start = Composer.command('start', async (ctx) => {
         `Deployed By <a href="https://t.me/itz_aastha_heartlessgirl">❣️Doremon❣️</a>`
     await ctx.replyWithHTML(text, {
         ...Markup.inlineKeyboard([
-            [Markup.button.url('View Source', 'https://github.com/ArnabXD/TGVCBot')]
+            [Markup.button.url('OWNER', 'https://t.me/Robo_Network')]
         ]),
         disable_web_page_preview: true
     })
